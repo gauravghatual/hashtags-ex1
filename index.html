@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Copy Code To Clipboard | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Hashtagpro</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">animal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">pic</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            reels
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">comedy</a>
+            <a class="dropdown-item" href="#">couple</a>
+            <a class="dropdown-item" href="#">viral</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--navbar end-->
+<div class="static">
+  <h3>hastags for Instagram</h3>
+  <hr>
+  
+  <h5>Instagram hashtags are still an effective way to get more view  on your Instagram photos,reels,stories in 2021. #love,#instagood,#fashion,#beautiful,#happpy,#followme,
+    #me,#selfie,#instadaily,#friends,#nature,#girl,#fun,#food
+    ,#life,#gym</h5>
+   
+  <!--box start-->
+</div>
+  
+  <div class="text-boxes">
+    <div class="text-box HTMLBox">
+      <div class="topic">trending instagram hashtags today</div>
+      <textarea id="HTMLBox" readonly >
+        #trending #explorepage #comment #explore #famous #search #worldstar #trends #trendy #trend #viral #fyp #newpost #popular #page #foryou #tiktokmemes #viralvideo #views #publicfigure #share #goviral #trendingtopic #viralpost #popularpage #tiktoks #tiktokvideos #hastag #tiktokindia #viralvideos 
+      </textarea>
+      <button id="HTMLButton">Copy</button>
+    </div>
+    <div class="text-box CSSBox">
+      <div class="topic">Instagram hashtags for girls</div>
+      <textarea id="CSSBox" readonly >
+        #girl #girls #babygirl #girlswholift #girlpower #polishgirl #girlboss #girly #girlfriend #girlswithtattoos #fitgirl #fitnessgirl #birthdaygirl #blackgirlmagic #instagirl #girlsnight #animegirl #mygirl #girlswithmuscle #tumblrgirl #fitgirls #girlsgeneration #daddysgirl #happygirl #italiangirl #girlswithpiercings #gamergirl #girlsnightout #beautifulgirls #inkedgirls 
+      </textarea>
+      <button id="CSSButton">Copy</button>
+    </div>
+    <div class="text-box JSBox">
+      <div class="topic">Instagram hashtags for boys</div>
+      <textarea id="JSBox" readonly >
+        #boys #bangtanboys #myboys #boyslove #boyswillbeboys #momofboys #cowboys #boystyle #gayboys #cuteboys #boysfashion #dallascowboys #bulletproofboyscouts #lovemyboys #cowboysnation #instaboys #theboys #hotboys #backstreetboys #animeboys #billionaireboysclub #bangtanboysarmy #tfboys #mumofboys #tomboystyle #badboys #tiktokboys #babyboys #polishboys
+      </textarea>
+      <button id="JSButton">Copy</button>
+    </div>
+  
+    <div class="text-box BHAIBox">
+      <div class="topic">Intagram hashtags for followers,likes</div>
+      <textarea id="BHAIBox"readonly>#follows #followshoutoutlikecomment #followstagram #likeforfollows #like4like #likeforlike #likeforlikes #instalike #likeforfollow #likes #like4likes #tagsforlikes #likesforlikes #like4follow #likesforlike #likeback #likes4likes #liker #likeforlikeback #likeme #liketime #20likes #likelike #likeall #likebackteam #likealways #instadaily #liketeam #likers </textarea>
+      <button id="BHAIButton">copy</button>
+
+    </div>
+  </div> 
+  <div>
+    <table class="table">
+      <thead>
+      <tr>
+      <th>#</th>
+      <th>Hashtag</th>
+      <th>Posts</th>
+      </tr>
+      </thead>
+    <tbody>
+      <tr>
+      <td>1</td>
+      <td><a href="/">#likesforlikes</a></td>
+      <td>321Million</td>
+      </tr>
+      <tr>
+      <td>2</td>
+      <td><a href="/">#likelike</a></td>
+      <td>26M</td>
+      </tr>
+      <tr>
+      <td>3</td>
+      <td><a href="">#like4likes</a></td>
+      <td>137 Millions</td>
+    <tbody>
+  </div>
+  
+  <!--footer-->
+  <div id="footer">coming soon
+    
+  </div> 
+
+  <script>
+
+  // HTML BOx JS Code
+    let HTMLBox = document.getElementById("HTMLBox");
+    let HTMLButton = document.getElementById("HTMLButton");
+
+    HTMLButton.onclick = function() {
+      HTMLBox.select();
+      document.execCommand("copy");
+      HTMLButton.innerText = "Codes Copied"
+    }
+
+    // CSS Box Js Code
+      let CSSBox = document.getElementById("CSSBox");
+      let CSSButton = document.getElementById("CSSButton");
+
+      CSSButton.onclick = function() {
+        CSSBox.select();
+        document.execCommand("copy");
+        CSSButton.innerText = "Codes Copied"
+      }
+    
+      // JavaScript BOx JS Code
+      let JSBox = document.getElementById("JSBox");
+      let JSButton = document.getElementById("JSButton");
+
+      JSButton.onclick = function() {
+        JSBox.select();
+        document.execCommand("copy");
+        JSButton.innerText = "Codes Copied"
+      }
+      
+      // JavaScript BOx JS Code
+      let BHAIBox = document.getElementById("BHAIBox");
+      let BHAIButton = document.getElementById("BHAIButton");
+
+      BHAIButton.onclick = function() {
+        BHAIBox.select();
+        document.execCommand("copy");
+        BHAIButton.innerText = "Codes Copied"
+      }
+  
+  </script>    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+     
+    
+
+
+
+</body>
+</html>
